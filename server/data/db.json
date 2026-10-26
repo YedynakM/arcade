@@ -3,12 +3,12 @@
     {
       "id": "04395720-cc61-4361-8100-47473968af27",
       "username": "admin",
-      "passwordHash": "$2a$10$5pwh7ExS0etYzMpitObbBu.eA213r6WYlr/jp7CWzzlfK5j9xpTSi",
+      "passwordHash": "$2a$10$S1AEtrGOBz0BNMi1TCo6R.m3/t7zawxxcFHNcv.9tfZm3AE3Wz0oi",
       "nickname": "admin",
-      "avatar": "🙂",
+      "avatar": "🌻",
       "role": "admin",
-      "points": 0,
-      "level": "Новачок",
+      "points": 7589,
+      "level": "Легенда",
       "blocked": false
     },
     {
@@ -18,9 +18,9 @@
       "nickname": "test_user",
       "avatar": "🙂",
       "role": "user",
-      "points": 50,
+      "points": 0,
       "level": "Новачок",
-      "blocked": false
+      "blocked": true
     },
     {
       "id": "fb8a6c04-7f35-49b2-9804-040d5bfc5288",
@@ -1341,9 +1341,315 @@
         "demo": true
       },
       "createdAt": "2026-10-26T16:01:19.842Z"
+    },
+    {
+      "id": "534fc00b-1301-48e6-8504-dbadc6d83dc8",
+      "userId": "04395720-cc61-4361-8100-47473968af27",
+      "gameId": "tictactoe",
+      "difficulty": "easy",
+      "score": 0,
+      "awarded": 0,
+      "won": false,
+      "durationSec": 2,
+      "details": {
+        "moves": 3,
+        "streak": 0
+      },
+      "createdAt": "2026-10-26T22:37:38.398Z"
+    },
+    {
+      "id": "78ae5a5d-c056-444e-88cf-bf43dd88738b",
+      "userId": "04395720-cc61-4361-8100-47473968af27",
+      "gameId": "tictactoe",
+      "difficulty": "easy",
+      "score": 100,
+      "awarded": 600,
+      "won": true,
+      "durationSec": 3,
+      "details": {
+        "moves": 4,
+        "streak": 1
+      },
+      "createdAt": "2026-10-26T22:37:44.619Z"
+    },
+    {
+      "id": "ecff0d6f-7a3d-4f8f-bcc7-31998461bd69",
+      "userId": "04395720-cc61-4361-8100-47473968af27",
+      "gameId": "tictactoe",
+      "difficulty": "easy",
+      "score": 100,
+      "awarded": 600,
+      "won": true,
+      "durationSec": 2,
+      "details": {
+        "moves": 3,
+        "streak": 1
+      },
+      "createdAt": "2026-10-26T22:37:48.894Z"
+    },
+    {
+      "id": "5844be03-45c8-429b-962b-06c59d13ebf4",
+      "userId": "04395720-cc61-4361-8100-47473968af27",
+      "gameId": "tictactoe",
+      "difficulty": "easy",
+      "score": 100,
+      "awarded": 600,
+      "won": true,
+      "durationSec": 2,
+      "details": {
+        "moves": 3,
+        "streak": 1
+      },
+      "createdAt": "2026-10-26T22:37:52.803Z"
+    },
+    {
+      "id": "f8f0ad74-bba1-4136-a459-b42ecfd78308",
+      "userId": "04395720-cc61-4361-8100-47473968af27",
+      "gameId": "tictactoe",
+      "difficulty": "easy",
+      "score": 100,
+      "awarded": 600,
+      "won": true,
+      "durationSec": 2,
+      "details": {
+        "moves": 3,
+        "streak": 1
+      },
+      "createdAt": "2026-10-26T22:37:56.695Z"
+    },
+    {
+      "id": "deca39d5-d43f-48d3-a687-e0037a3f5ce4",
+      "userId": "04395720-cc61-4361-8100-47473968af27",
+      "gameId": "tictactoe",
+      "difficulty": "easy",
+      "score": 100,
+      "awarded": 600,
+      "won": true,
+      "durationSec": 4,
+      "details": {
+        "moves": 4,
+        "streak": 1
+      },
+      "createdAt": "2026-10-26T22:38:02.737Z"
+    },
+    {
+      "id": "0608a4f2-96cb-4233-b702-7668ece976aa",
+      "userId": "04395720-cc61-4361-8100-47473968af27",
+      "gameId": "maze",
+      "difficulty": "easy",
+      "score": 12,
+      "awarded": 12,
+      "won": true,
+      "durationSec": 44,
+      "details": {
+        "size": 10,
+        "moves": 132
+      },
+      "createdAt": "2026-10-26T22:38:56.400Z"
+    },
+    {
+      "id": "1fec2817-f656-4664-8776-074001ca529b",
+      "userId": "04395720-cc61-4361-8100-47473968af27",
+      "gameId": "puzzle",
+      "difficulty": "easy",
+      "score": 10,
+      "awarded": 10,
+      "won": true,
+      "durationSec": 91,
+      "details": {
+        "size": 3,
+        "moves": 144,
+        "mode": "image",
+        "imageId": "sunset",
+        "peeks": 3
+      },
+      "createdAt": "2026-10-26T22:40:47.624Z"
+    },
+    {
+      "id": "5c568d8e-1d7e-4197-b8a6-536447f4873e",
+      "userId": "04395720-cc61-4361-8100-47473968af27",
+      "gameId": "memory",
+      "difficulty": "easy",
+      "score": 36,
+      "awarded": 36,
+      "won": true,
+      "durationSec": 24,
+      "details": {
+        "pairs": 6,
+        "attempts": 14,
+        "mistakes": 8,
+        "theme": "animals"
+      },
+      "createdAt": "2026-10-26T22:41:16.614Z"
+    },
+    {
+      "id": "753f714f-7c05-41a0-bc27-78f98e176e17",
+      "userId": "04395720-cc61-4361-8100-47473968af27",
+      "gameId": "memory",
+      "difficulty": "easy",
+      "score": 31,
+      "awarded": 31,
+      "won": true,
+      "durationSec": 19,
+      "details": {
+        "pairs": 6,
+        "attempts": 16,
+        "mistakes": 10,
+        "theme": "animals"
+      },
+      "createdAt": "2026-10-26T22:41:37.982Z"
+    },
+    {
+      "id": "3e1eb765-c632-4fad-8d25-c8b9d9703e1e",
+      "userId": "04395720-cc61-4361-8100-47473968af27",
+      "gameId": "tictactoe",
+      "difficulty": "easy",
+      "score": 100,
+      "awarded": 600,
+      "won": true,
+      "durationSec": 1,
+      "details": {
+        "moves": 3,
+        "streak": 1
+      },
+      "createdAt": "2026-10-26T22:41:50.483Z"
+    },
+    {
+      "id": "3c0a7084-2e99-404d-84a5-c05d1dd3ee2b",
+      "userId": "04395720-cc61-4361-8100-47473968af27",
+      "gameId": "tictactoe",
+      "difficulty": "easy",
+      "score": 100,
+      "awarded": 600,
+      "won": true,
+      "durationSec": 1,
+      "details": {
+        "moves": 3,
+        "streak": 1
+      },
+      "createdAt": "2026-10-26T22:41:53.593Z"
+    },
+    {
+      "id": "d6da9a14-73d9-4c6e-8b6a-1168ba56f208",
+      "userId": "04395720-cc61-4361-8100-47473968af27",
+      "gameId": "tictactoe",
+      "difficulty": "easy",
+      "score": 100,
+      "awarded": 600,
+      "won": true,
+      "durationSec": 1,
+      "details": {
+        "moves": 3,
+        "streak": 1
+      },
+      "createdAt": "2026-10-26T22:41:56.120Z"
+    },
+    {
+      "id": "c5af48eb-6ebe-4659-ac63-9540aafe3d0e",
+      "userId": "04395720-cc61-4361-8100-47473968af27",
+      "gameId": "tictactoe",
+      "difficulty": "hard",
+      "score": 80,
+      "awarded": 480,
+      "won": false,
+      "durationSec": 4,
+      "details": {
+        "moves": 5,
+        "streak": 0
+      },
+      "createdAt": "2026-10-26T22:42:04.605Z"
+    },
+    {
+      "id": "11f1ccf4-49c1-4237-813c-5408de83e3bd",
+      "userId": "04395720-cc61-4361-8100-47473968af27",
+      "gameId": "tictactoe",
+      "difficulty": "hard",
+      "score": 80,
+      "awarded": 480,
+      "won": false,
+      "durationSec": 4,
+      "details": {
+        "moves": 5,
+        "streak": 0
+      },
+      "createdAt": "2026-10-26T22:42:11.583Z"
+    },
+    {
+      "id": "a96cd965-6470-4086-ab41-b41e71d64863",
+      "userId": "04395720-cc61-4361-8100-47473968af27",
+      "gameId": "tictactoe",
+      "difficulty": "hard",
+      "score": 80,
+      "awarded": 480,
+      "won": false,
+      "durationSec": 5,
+      "details": {
+        "moves": 5,
+        "streak": 0
+      },
+      "createdAt": "2026-10-26T22:42:18.358Z"
+    },
+    {
+      "id": "0a3eb8f4-fc47-408c-ad54-fa9ef9e46365",
+      "userId": "04395720-cc61-4361-8100-47473968af27",
+      "gameId": "tictactoe",
+      "difficulty": "medium",
+      "score": 60,
+      "awarded": 360,
+      "won": false,
+      "durationSec": 4,
+      "details": {
+        "moves": 5,
+        "streak": 0
+      },
+      "createdAt": "2026-10-26T22:42:27.357Z"
+    },
+    {
+      "id": "fe9b695d-2d3a-4a8f-9378-eb4a8656f821",
+      "userId": "04395720-cc61-4361-8100-47473968af27",
+      "gameId": "tictactoe",
+      "difficulty": "medium",
+      "score": 150,
+      "awarded": 900,
+      "won": true,
+      "durationSec": 2,
+      "details": {
+        "moves": 3,
+        "streak": 1
+      },
+      "createdAt": "2026-10-26T22:42:30.983Z"
     }
   ],
-  "feedback": [],
+  "feedback": [
+    {
+      "id": "b3d0ac4c-1747-40ac-8a57-f5f4e958c64d",
+      "name": "dsd",
+      "email": "dsdsdsadsa@gmail.com",
+      "message": "sdasdsdasd",
+      "createdAt": "2026-10-26T22:06:40.768Z"
+    },
+    {
+      "id": "28b4a944-3e23-4b14-95f2-960a58673b3c",
+      "name": "22",
+      "email": "231@gmail.com",
+      "message": "у2312312312312",
+      "createdAt": "2026-10-26T22:09:34.817Z"
+    },
+    {
+      "id": "1bf7a316-a1a9-41da-9bbe-bca02724053d",
+      "name": "321",
+      "email": "231@gmail.com",
+      "message": "33123131231312231",
+      "createdAt": "2026-10-26T22:09:39.680Z"
+    },
+    {
+      "id": "a4bd6991-15cd-4fd3-b9ce-2af721a369be",
+      "name": "312321",
+      "email": "231@gmail.com",
+      "message": "312312312312312",
+      "createdAt": "2026-10-26T22:09:43.013Z"
+    }
+  ],
   "unlocked": [
     {
       "userId": "1b99094f-6101-4cd1-a228-687567567fd8",
@@ -1544,14 +1850,55 @@
       "userId": "2557d33d-3163-4aa5-89d9-d6d14fb9d2b6",
       "achievementId": "hardWin",
       "unlockedAt": "2026-10-26T20:26:53.716Z"
+    },
+    {
+      "userId": "04395720-cc61-4361-8100-47473968af27",
+      "achievementId": "firstGame",
+      "unlockedAt": "2026-10-26T22:37:38.398Z"
+    },
+    {
+      "userId": "04395720-cc61-4361-8100-47473968af27",
+      "achievementId": "points100",
+      "unlockedAt": "2026-10-26T22:37:44.619Z"
+    },
+    {
+      "userId": "04395720-cc61-4361-8100-47473968af27",
+      "achievementId": "points500",
+      "unlockedAt": "2026-10-26T22:37:44.619Z"
+    },
+    {
+      "userId": "04395720-cc61-4361-8100-47473968af27",
+      "achievementId": "points2000",
+      "unlockedAt": "2026-10-26T22:37:56.695Z"
+    },
+    {
+      "userId": "04395720-cc61-4361-8100-47473968af27",
+      "achievementId": "winStreak10",
+      "unlockedAt": "2026-10-26T22:41:50.483Z"
     }
   ],
   "settings": {
-    "multipliers": {},
-    "enabledGames": [],
+    "multipliers": {
+      "tictactoe": 3,
+      "maze": 1,
+      "puzzle": 1,
+      "memory": 1,
+      "snake": 1,
+      "game2048": 1,
+      "guessnumber": 1
+    },
+    "enabledGames": [
+      "tictactoe",
+      "maze",
+      "puzzle",
+      "memory",
+      "snake",
+      "game2048",
+      "guessnumber"
+    ],
     "dailyGame": {
-      "gameId": "memory",
-      "date": "2026-10-26"
+      "gameId": "tictactoe",
+      "date": "2026-10-27"
     }
   }
 }

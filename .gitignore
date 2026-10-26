@@ -2,3 +2,10 @@ node_modules/
 .env
 *.log
 .DS_Store
+
+# Games are not ready yet, added in later commits
+client/js/games/*.js
+client/js/games/test*.html
+!client/js/games/registry.js
+
+server/data/db.json

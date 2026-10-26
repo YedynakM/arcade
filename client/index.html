@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Аркада</title>
+  <link rel="stylesheet" href="css/themes.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/animations.css">
+</head>
+<body>
+  <canvas id="bg" aria-hidden="true"></canvas>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <button id="burger" class="icon-btn burger" type="button"
+              aria-label="Меню" aria-expanded="false" aria-controls="nav">
+        <span class="burger-line"></span>
+        <span class="burger-line"></span>
+        <span class="burger-line"></span>
+      </button>
+
+      <a class="brand" href="#/">🎮 Аркада</a>
+
+      <nav id="nav" class="nav" aria-label="Головна навігація">
+        <a class="nav-link" data-route="/" href="#/">Головна</a>
+        <a class="nav-link" data-route="/hub" href="#/hub">Ігри</a>
+        <a class="nav-link" data-route="/leaderboard" href="#/leaderboard">Рейтинг</a>
+        <a class="nav-link" data-route="/achievements" href="#/achievements">Досягнення</a>
+        <a class="nav-link" data-route="/profile" href="#/profile">Профіль</a>
+        <a class="nav-link" data-route="/about" href="#/about">Про нас</a>
+        <a id="navAdmin" class="nav-link" data-route="/admin" href="#/admin" hidden>Адмінка</a>
+      </nav>
+
+      <div class="header-actions">
+        <button id="themeToggle" class="icon-btn" type="button"
+                aria-label="Перемкнути тему" title="Перемкнути тему">🌓</button>
+
+        <div id="userBlock" class="user-block">
+          <span id="userAvatar" class="user-avatar" hidden></span>
+          <span class="user-info" id="userInfo" hidden>
+            <span id="userNick" class="user-nick"></span>
+            <span id="userLevel" class="user-level"></span>
+          </span>
+          <a id="loginBtn" class="btn btn-primary" href="#/login">Увійти</a>
+          <button id="logoutBtn" class="btn" type="button" hidden>Вийти</button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main id="app" class="page-container" tabindex="-1"></main>
+
+  <div id="toasts" class="toasts" aria-live="polite"></div>
+  <div id="modal" class="modal-root" hidden></div>
+
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,139 @@
+/* Анімації: keyframes і класи; кольори лише через змінні */
+
+/* Перехід між сторінками: fade + slide */
+@keyframes pageEnter {
+  from { opacity: 0; transform: translateY(14px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.page-enter {
+  animation: pageEnter 0.25s ease both;
+}
+
+/* Каскадна поява карток: затримка через --i */
+@keyframes cardIn {
+  from { opacity: 0; transform: translateY(18px) scale(0.98); }
+  to { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+.stagger > * {
+  animation: cardIn 0.4s ease both;
+  animation-delay: calc(var(--i, 0) * 70ms);
+}
+
+/* Hover-ефекти карток */
+.card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+.card-hover:hover,
+a.card:hover {
+  transform: translateY(-4px);
+  border-color: var(--primary);
+  text-decoration: none;
+}
+
+/* Тости: вхід і вихід */
+@keyframes toastIn {
+  from { opacity: 0; transform: translateX(40px); }
+  to { opacity: 1; transform: translateX(0); }
+}
+
+@keyframes toastOut {
+  from { opacity: 1; transform: translateX(0); }
+  to { opacity: 0; transform: translateX(40px); }
+}
+
+.toast {
+  animation: toastIn 0.3s ease both;
+}
+
+.toast.leaving {
+  animation: toastOut 0.25s ease both;
+}
+
+/* Спінер */
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+.spinner {
+  animation: spin 0.7s linear infinite;
+}
+
+/* Skeleton-shimmer */
+@keyframes shimmer {
+  from { background-position: 200% 0; }
+  to { background-position: -200% 0; }
+}
+
+.skeleton {
+  animation: shimmer 1.5s linear infinite;
+}
+
+/* Модальне вікно: вхід і вихід */
+@keyframes backdropIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes backdropOut {
+  from { opacity: 1; }
+  to { opacity: 0; }
+}
+
+@keyframes dialogIn {
+  from { opacity: 0; transform: translateY(20px) scale(0.96); }
+  to { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+@keyframes dialogOut {
+  from { opacity: 1; transform: translateY(0) scale(1); }
+  to { opacity: 0; transform: translateY(20px) scale(0.96); }
+}
+
+.modal-backdrop {
+  animation: backdropIn 0.2s ease both;
+}
+
+.modal-dialog {
+  animation: dialogIn 0.25s ease both;
+}
+
+.modal-root.closing .modal-backdrop {
+  animation: backdropOut 0.2s ease both;
+}
+
+.modal-root.closing .modal-dialog {
+  animation: dialogOut 0.2s ease both;
+}
+
+/* Анімований градієнт фону сторінки (під canvas) */
+@keyframes bgShift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+body {
+  background: linear-gradient(120deg, var(--bg), var(--bg-accent-1), var(--bg-accent-2), var(--bg));
+  background-size: 300% 300%;
+  animation: bgShift 30s ease infinite;
+}
+
+/* Повага до prefers-reduced-motion */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-delay: 0ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+
+  body {
+    background: var(--bg);
+  }
+}

@@ -1,0 +1,59 @@
+/* Змінні кольорів: єдине місце, де задаються кольори */
+
+:root {
+  color-scheme: light;
+
+  --bg: #f4f6fb;
+  --bg-accent-1: #c7d2fe;
+  --bg-accent-2: #fbcfe8;
+  --surface: #ffffff;
+  --surface-2: #eef1f8;
+  --border: #d9deea;
+
+  --text: #1b2033;
+  --text-muted: #5b6482;
+  --text-on-primary: #ffffff;
+
+  --primary: #5b5bf0;
+  --primary-hover: #4545d6;
+  --accent: #f0a020;
+  --success: #1f9d55;
+  --danger: #d6334a;
+  --warning: #c77d0a;
+
+  --focus: #5b5bf0;
+  --shadow: 0 4px 16px rgba(27, 32, 51, 0.12);
+  --overlay: rgba(27, 32, 51, 0.5);
+  --skeleton-base: #e4e8f2;
+  --skeleton-shine: #f4f6fb;
+  --bg-particle: rgba(91, 91, 240, 0.35);
+}
+
+html[data-theme="dark"] {
+  color-scheme: dark;
+
+  --bg: #0f1220;
+  --bg-accent-1: #2a2f6b;
+  --bg-accent-2: #4a1f4d;
+  --surface: #1a1f35;
+  --surface-2: #232a47;
+  --border: #323a5e;
+
+  --text: #e8ebf7;
+  --text-muted: #9aa3c4;
+  --text-on-primary: #ffffff;
+
+  --primary: #7c7cff;
+  --primary-hover: #9696ff;
+  --accent: #ffb84d;
+  --success: #3ecf7e;
+  --danger: #ff6b81;
+  --warning: #ffb84d;
+
+  --focus: #9696ff;
+  --shadow: 0 4px 16px rgba(0, 0, 0, 0.5);
+  --overlay: rgba(0, 0, 0, 0.65);
+  --skeleton-base: #232a47;
+  --skeleton-shine: #323a5e;
+  --bg-particle: rgba(150, 150, 255, 0.4);
+}
