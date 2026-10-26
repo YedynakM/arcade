@@ -7,7 +7,7 @@
       "nickname": "admin",
       "avatar": "🌻",
       "role": "admin",
-      "points": 7589,
+      "points": 30874,
       "level": "Легенда",
       "blocked": false
     },
@@ -1618,6 +1618,174 @@
         "streak": 1
       },
       "createdAt": "2026-10-26T22:42:30.983Z"
+    },
+    {
+      "id": "378e198a-f92f-4213-8443-e73ed1a8c4b3",
+      "userId": "04395720-cc61-4361-8100-47473968af27",
+      "gameId": "snake",
+      "difficulty": "easy",
+      "score": 30,
+      "awarded": 30,
+      "won": false,
+      "durationSec": 16,
+      "details": {
+        "foodEaten": 3,
+        "length": 6,
+        "maxSpeedLevel": 1
+      },
+      "createdAt": "2026-10-26T23:02:41.491Z"
+    },
+    {
+      "id": "e8297228-f3f9-4013-aef0-d7b6a5c30388",
+      "userId": "04395720-cc61-4361-8100-47473968af27",
+      "gameId": "snake",
+      "difficulty": "hard",
+      "score": 20,
+      "awarded": 20,
+      "won": false,
+      "durationSec": 3,
+      "details": {
+        "foodEaten": 1,
+        "length": 4,
+        "maxSpeedLevel": 1
+      },
+      "createdAt": "2026-10-26T23:02:50.744Z"
+    },
+    {
+      "id": "f2e23f63-c392-42d0-866d-ce603d674f4f",
+      "userId": "04395720-cc61-4361-8100-47473968af27",
+      "gameId": "snake",
+      "difficulty": "hard",
+      "score": 0,
+      "awarded": 0,
+      "won": false,
+      "durationSec": 1,
+      "details": {
+        "foodEaten": 0,
+        "length": 3,
+        "maxSpeedLevel": 1
+      },
+      "createdAt": "2026-10-26T23:02:55.791Z"
+    },
+    {
+      "id": "6e315c8f-dd80-4aed-952f-4009ee44f3b2",
+      "userId": "04395720-cc61-4361-8100-47473968af27",
+      "gameId": "snake",
+      "difficulty": "medium",
+      "score": 0,
+      "awarded": 0,
+      "won": false,
+      "durationSec": 0,
+      "details": {
+        "foodEaten": 0,
+        "length": 3,
+        "maxSpeedLevel": 1
+      },
+      "createdAt": "2026-10-26T23:03:02.309Z"
+    },
+    {
+      "id": "a204d1c5-1392-472d-a82d-389f57b255ed",
+      "userId": "04395720-cc61-4361-8100-47473968af27",
+      "gameId": "snake",
+      "difficulty": "medium",
+      "score": 30,
+      "awarded": 30,
+      "won": false,
+      "durationSec": 4,
+      "details": {
+        "foodEaten": 2,
+        "length": 5,
+        "maxSpeedLevel": 1
+      },
+      "createdAt": "2026-10-26T23:03:08.451Z"
+    },
+    {
+      "id": "808ac73b-6f39-4b2c-b147-9c42a3839dcc",
+      "userId": "04395720-cc61-4361-8100-47473968af27",
+      "gameId": "game2048",
+      "difficulty": "easy",
+      "score": 22724,
+      "awarded": 22724,
+      "won": true,
+      "durationSec": 326,
+      "details": {
+        "gridSize": 5,
+        "bestTile": 2048,
+        "moves": 1142
+      },
+      "createdAt": "2026-10-26T23:09:00.538Z"
+    },
+    {
+      "id": "5734565a-7e2f-43fc-9e66-b400a898c1d7",
+      "userId": "04395720-cc61-4361-8100-47473968af27",
+      "gameId": "guessnumber",
+      "difficulty": "easy",
+      "score": 100,
+      "awarded": 100,
+      "won": true,
+      "durationSec": 0,
+      "details": {
+        "min": 1,
+        "max": 50,
+        "attemptsUsed": 1,
+        "maxAttempts": 8,
+        "target": 20
+      },
+      "createdAt": "2026-10-26T23:14:08.201Z"
+    },
+    {
+      "id": "cdd54ce3-f4cb-4820-b649-166ec7430a5a",
+      "userId": "04395720-cc61-4361-8100-47473968af27",
+      "gameId": "guessnumber",
+      "difficulty": "easy",
+      "score": 63,
+      "awarded": 63,
+      "won": true,
+      "durationSec": 10,
+      "details": {
+        "min": 1,
+        "max": 50,
+        "attemptsUsed": 4,
+        "maxAttempts": 8,
+        "target": 15
+      },
+      "createdAt": "2026-10-26T23:14:23.049Z"
+    },
+    {
+      "id": "71edc664-8364-4414-8eba-091901545286",
+      "userId": "04395720-cc61-4361-8100-47473968af27",
+      "gameId": "guessnumber",
+      "difficulty": "easy",
+      "score": 38,
+      "awarded": 38,
+      "won": true,
+      "durationSec": 23,
+      "details": {
+        "min": 1,
+        "max": 50,
+        "attemptsUsed": 6,
+        "maxAttempts": 8,
+        "target": 46
+      },
+      "createdAt": "2026-10-26T23:14:51.800Z"
+    },
+    {
+      "id": "b96b2c7a-951d-4e03-ab0d-ae23dd9be6ea",
+      "userId": "04395720-cc61-4361-8100-47473968af27",
+      "gameId": "guessnumber",
+      "difficulty": "hard",
+      "score": 280,
+      "awarded": 280,
+      "won": true,
+      "durationSec": 21,
+      "details": {
+        "min": 1,
+        "max": 1000,
+        "attemptsUsed": 4,
+        "maxAttempts": 10,
+        "target": 562
+      },
+      "createdAt": "2026-10-26T23:15:22.110Z"
     }
   ],
   "feedback": [
@@ -1875,6 +2043,21 @@
       "userId": "04395720-cc61-4361-8100-47473968af27",
       "achievementId": "winStreak10",
       "unlockedAt": "2026-10-26T22:41:50.483Z"
+    },
+    {
+      "userId": "04395720-cc61-4361-8100-47473968af27",
+      "achievementId": "allGames",
+      "unlockedAt": "2026-10-26T23:14:08.201Z"
+    },
+    {
+      "userId": "04395720-cc61-4361-8100-47473968af27",
+      "achievementId": "games25",
+      "unlockedAt": "2026-10-26T23:14:08.201Z"
+    },
+    {
+      "userId": "04395720-cc61-4361-8100-47473968af27",
+      "achievementId": "hardWin",
+      "unlockedAt": "2026-10-26T23:15:22.110Z"
     }
   ],
   "settings": {
